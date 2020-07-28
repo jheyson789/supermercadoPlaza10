@@ -22,7 +22,7 @@ header {
   font-size: 42px;
   font-stretch: expanded;
   margin: auto;
-  padding: 0 auto;
+  padding: 0;
 }
 .navbar-brand:hover{
   color: #ffee58;
@@ -68,11 +68,9 @@ header {
   padding-right: 0;
   list-style: none;
 }
-.nav-usuario li button{
-  padding: 0 6px;
-  box-shadow: none;
+.nav-usuario li {
   font-size: 20px;
-
+  margin: 0 auto;
 }
 
 .input-search {
