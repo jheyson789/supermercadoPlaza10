@@ -1,0 +1,108 @@
+.redes-sociales {
+  background-color: #a00037;
+  
+}
+.redes-sociales .nav-item {
+  margin: 0 10px;
+}
+.redes-sociales .nav-item i {
+  font-size: 12px !important;
+  color: #fff;
+  padding: auto 0;
+}
+
+header {
+  background-color: #d81b60;
+}
+
+.navbar-brand {
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 42px;
+  font-stretch: expanded;
+  margin: auto;
+  padding: 0 auto;
+}
+.navbar-brand:hover{
+  color: #ffee58;
+  transition: all ease .1s;
+}
+
+#contenidoNavBar li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-weight: 200;
+  text-transform: capitalize;
+}
+#contenidoNavBar ul {
+  border-top: 1px solid #cecdcd;
+}
+
+.navbar-nav li a {
+  color: #fff !important;
+}
+
+.btnMenu {
+  text-decoration: none;
+  text-align: center;
+  border-style: none;
+  border-radius: 2px;
+  background-color: transparent;
+  color:#fff;
+}
+.btnMenu:focus {
+  outline: none;
+}
+.btnMenu i {
+  color: #fff;
+  font-size: 20px;
+}
+
+.nav-usuario {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  padding-right: 0;
+  list-style: none;
+}
+.nav-usuario li button{
+  padding: 0 6px;
+  box-shadow: none;
+  font-size: 20px;
+
+}
+
+.input-search {
+  -webkit-appearance: none !important; 
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #fff !important;
+  background-color: transparent;
+  color: #fff;
+}
+input:focus {
+  outline: none !important;
+}
+input::placeholder {
+  color: #cecdcd;
+}
+
+.nav-link {
+  padding: 0 5px;
+}
+
+
+@media (min-width: 768px){
+  .redes-sociales .nav-item i {
+    font-size: 18px;
+  }
+  .input-search {
+    width: 350px;
+  }
+  #contenidoNavBar li a {
+    font-size: 20px;
+  }
+}

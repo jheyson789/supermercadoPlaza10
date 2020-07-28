@@ -1,0 +1,58 @@
+
+.card-footer span,
+.card-footer button {
+  margin: 5px 10px;
+}
+
+span p{
+  margin: 0 5px;
+  display: inline-block;
+}
+.card-footer span .precioOferta {
+  background-color: #00897b;
+}
+.card-footer span .precioNormal {
+  background-color: #d81b60;
+  text-decoration: line-through;
+}
+
+.card-footer span .precioNormal,
+.card-footer span .precioOferta {
+  color: #fff;
+  font-size: 10px;
+  padding: 2px;
+  cursor: default;
+  /* padding: 10px 3px !important; */
+}
+
+.precios {
+  display: inline-block;
+}
+@media (min-width: 768px) {
+  .card-footer span .precioOferta {
+    /* padding: auto 5px !important; */
+    font-size: 16px;
+    padding: 5px;
+    /* margin: 0 1px; */
+  }
+  .card-footer {
+    display: inline-flex;
+  }
+}
+
+@media (max-width: 768px) {
+  .card-body .card-title {
+    font-size: 16px;
+  }
+  .card-body .card-text {
+    font-size: 10px;
+  }
+  .card-body,
+  .card-footer {
+    padding: 5px;
+  }
+  .card-footer button {
+    padding: 3px;
+    font-size: 10px;
+  }
+}

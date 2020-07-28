@@ -1,0 +1,12 @@
+footer {
+  background-color: #ff5c8d;
+  color: #fff;
+}
+.list-group-item {
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.list-group-item a {
+  text-decoration: none;
+  color: #fff;
+}
