@@ -10,12 +10,12 @@
   </li>
 </ul>
 
-<header>
-  <div class="container">
+<header class="headerPrincipal">
+  <div class="container animate__animated animate__fadeIn">
     <div class="row">
       <a class="navbar-brand" href="#">plaza 10 supermercado</a>
     </div>
-    <nav class="container">
+    <nav class="navegacionPrincipal animate__animated animate__fadeIn" [ngClass]="{'navTop animate__fadeInDown' : navFixed}">
       <div class="row">
         <div class="col-2">
           <button class="btnMenu" type="button" data-toggle="collapse" data-target="#contenidoNavBar" aria-controls="contenidoNavBar" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,19 +23,39 @@
           </button>
         </div>
         <div class="col-10">
-          <ul class="nav-usuario justify-content-md-around justify-content-start">
+          <ul class="nav-usuario justify-content-start">
             <li class="nav-item">
               <button type="button" class="text-white btnMenu" id="dropdown-carrito" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <i class="fas fa-shopping-cart"></i>
               </button>
-              <div class="dropdown-menu" aria-labelledby="dropdown-carrito">
-                <div class="card" style="width: 18rem;">
-                  <div class="card-body">
-                    <h5 class="card-title">Special title treatment</h5>
-                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+              <div class="dropdown-menu animate__animated animate__fadeIn" aria-labelledby="dropdown-carrito">
+                <div class="lista-carrito">
+                  <div class="avatar-producto">
+                    <img src="assets/img/leche-pil.jpg" alt="" class="img-fluid">
                   </div>
+                  <div class="card-title"><h6>Leche Pil</h6></div>
+                  <div class="cantidad"><input type="number" min="1"></div>
+                  <button class="remover btnMenu" type="button"><i class="fas fa-times"></i></button>
                 </div>
+                <hr> <!-- descripcion de cada producto del carrito añadido -->
+                <div class="lista-carrito">
+                  <div class="avatar-producto">
+                    <img src="assets/img/leche-pil.jpg" alt="" class="img-fluid">
+                  </div>
+                  <div class="card-title"><h6>Leche Pil</h6></div>
+                  <div class="cantidad"><input type="number" min="1"></div>
+                  <button class="remover btnMenu" type="button"><i class="fas fa-times"></i></button>
+                </div>
+                <hr> <!-- descripcion de cada producto del carrito añadido -->
+                <div class="lista-carrito">
+                  <div class="avatar-producto">
+                    <img src="assets/img/leche-pil.jpg" alt="" class="img-fluid">
+                  </div>
+                  <div class="card-title"><h6>Leche Pil</h6></div>
+                  <div class="cantidad"><input type="number" min="1"></div>
+                  <button class="remover btnMenu" type="button"><i class="fas fa-times"></i></button>
+                </div>
+                <hr> <!-- descripcion de cada producto del carrito añadido -->
               </div>
             </li>
             <li class="nav-item"><button type="button" class="btnMenu text-white"><i class="fas fa-user"></i></button></li>
