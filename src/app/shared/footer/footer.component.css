@@ -10,3 +10,66 @@ footer {
   text-decoration: none;
   color: #fff;
 }
+textarea {
+  resize: none;
+}
+
+.formulario-contacto .input-footer{
+  width: 100%;
+  color: #fff;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #fff;
+  padding: 3px 0;
+  outline: none;
+}
+
+.formulario-contacto .input-footer::placeholder {
+  color: #d81b60;
+}
+.formulario-contacto .input-footer:hover {
+  border-bottom: 1px solid #d81b60;
+  transition: all 0.2s;
+}
+.formulario-contacto .input-footer:focus {
+  border-bottom: 1px dashed #78002e;
+}
+.formulario-contacto .form-group label {
+  margin: 0;
+}
+
+footer .end {
+  background-color: #a00037;
+  padding: 3px;
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+}
+
+.end span a{
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.3s;
+}
+.end span a:hover {
+  font-size: 11px;
+}
+.btn-correo {
+  outline: none;
+  border: 1px solid #fff;
+  color: #fff;
+  background-color: transparent;
+  transition: all 0.2s;
+}
+.btn-correo:hover {
+  background-color: #78002e56;
+}
+.mapa {
+  height: 150px;
+}
+@media (min-width:768px) {
+  .mapa {
+    height: 80%;
+  }
+
+}
